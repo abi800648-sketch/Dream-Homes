@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Estate | Listings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Property Listings</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="listings.html">Listings</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<section class="listing-container">
+
+    <h2>Add / Edit Property</h2>
+    <form id="propertyForm">
+        <input type="hidden" id="propertyId">
+        <input type="text" id="title" placeholder="Property Title" required>
+        <input type="text" id="price" placeholder="Price" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <button type="submit">Save Property</button>
+    </form>
+
+    <h2>Available Properties</h2>
+    <div id="propertyList"></div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

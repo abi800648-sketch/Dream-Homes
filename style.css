@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #e99999;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('https://images.unsplash.com/photo-1560185127-6a8c0f9b6314') no-repeat center/cover;
+    color: white;
+    height: 300px;
+}
+
+.listing-container, .contact-box {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+#propertyForm input, #propertyForm button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+}
+
+.property-card {
+    background: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
